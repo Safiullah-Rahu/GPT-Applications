@@ -2,7 +2,7 @@ import streamlit as st
 
 # Import the OpenAI GPT-3 library
 import openai
-openai.api_key = "api_key"
+openai.api_key = "api_key" # paste your api key here
 
 # Create a function to generate text using GPT-3
 def generate_text(prompt):
